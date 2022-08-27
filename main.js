@@ -4,7 +4,7 @@ const Discord = require('discord.js-selfbot-v13')
 const { writeFile } = require('fs')
 let users = require('./users.json')
 
-let intLoop = null
+let intLoop = null             
 let loop = false
 const reject = '❌'
 const accept = '✅'
